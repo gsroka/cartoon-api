@@ -1,0 +1,61 @@
+{
+  "name": "react-vite-storybook",
+  "version": "0.0.2",
+  "description": "React Vite Storybook",
+  "license": "MIT",
+  "repository": "https://github.com/gsroka/react-vite-storybook.git",
+  "author": {
+    "email": "gsroka@pm.me",
+    "name": "Grzegorz Sroka",
+    "url": "https://github.com/gsroka"
+  },
+  "engines": {
+    "node": "16.15.*"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@mantine/core": "^5.10.0",
+    "@mantine/hooks": "^5.10.0",
+    "@storybook/react": "^6.5.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.5.15",
+    "@storybook/addon-essentials": "^6.5.15",
+    "@storybook/addon-interactions": "^6.5.15",
+    "@storybook/addon-links": "^6.5.15",
+    "@storybook/builder-vite": "^0.2.6",
+    "@storybook/testing-library": "^0.0.13",
+    "@testing-library/react": "^13.4.0",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react-swc": "^3.0.1",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "^2.8.1",
+    "sass": "^1.57.1",
+    "storybook-dark-mode": "^2.0.5",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
